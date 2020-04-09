@@ -1,2 +1,2 @@
-# smart_home
-A smart home system tools with remote control rest-api and automation
+# smart_iot
+A smart system tools with remote control rest-api and automation
