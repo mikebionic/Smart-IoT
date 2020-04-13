@@ -63,7 +63,7 @@ void loop()
      if((secRoom1+8000)>(secRoom1+5000) && (secRoom1+8000)<millis()){
        queryRoom1 = '4';
      }
-     if((secRoom1+11000)<millis()){
+     if((secRoom1+11000)<millis()||millis()<(secRoom1+1000)){
       queryRoom1 = '0';
      }
   }
@@ -92,7 +92,7 @@ void loop()
      if((secRoom2+8000)>(secRoom2+5000) && (secRoom2+8000)<millis()){
        queryRoom2 = '4';
      }
-     if((secRoom2+11000)<millis()){
+     if((secRoom2+11000)<millis()||millis()<(secRoom2+1000)){
       queryRoom2 = '0';
      }
   }
