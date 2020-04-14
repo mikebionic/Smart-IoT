@@ -47,7 +47,7 @@ int i;
 
 void setup(){
   Serial.begin(9600);
-  Serial.println("Coded with love by Muhammed aka mike-bionic")
+  Serial.println("Coded with love by Muhammed aka mike-bionic");
   for(i=0;i<numRooms;i++){
     pinMode(roomSwitches[i],INPUT_PULLUP);
   }
